@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/index",
+    "pages/i/index"
+  ],
+  "window":{
+    "color": "#000000",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "我的旅游",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/icon_component.png",
+      "selectedIconPath": "image/icon_component_HL.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/list/index",
+      "iconPath": "image/icon_API.png",
+      "selectedIconPath": "image/icon_API_HL.png",
+      "text": "分类"
+    }, {
+      "pagePath": "pages/i/index",
+      "iconPath": "image/icon_me.png",
+      "selectedIconPath": "image/icon_me_HL.png",
+      "text": "我"
+    }]
+  },
+  "debug": true
+}

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">这就是我的小头像</text>
+  </view>
+  <view class="info">
+    <text>我</text>
+  </view>
+</view>
